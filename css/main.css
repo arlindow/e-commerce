@@ -1,0 +1,71 @@
+/* === SEÇÕES === */
+main {
+  padding: 1.5rem;
+}
+
+/* Banner */
+.banner {
+  background-color: #e0f7fa;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+/* Produtos */
+.destaques, .lista-produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.destaques article, .lista-produtos article {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+  width: 250px;
+}
+
+.destaques img, .lista-produtos img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Formulário */
+.formulario {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: auto;
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #008cba;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005f73;
+}
