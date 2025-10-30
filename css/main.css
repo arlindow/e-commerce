@@ -3,14 +3,19 @@ main {
   padding: 1.5rem;
 }
 
-/* Banner */
 .banner {
-  background-color: #e0f7fa;
-  padding: 2rem;
   text-align: center;
-  border-radius: 8px;
-  margin-bottom: 2rem;
+  padding: 40px;
+  background: linear-gradient(135deg, #0077ff, #00c8ff);
+  color: white;
+  transition: background 1s ease-in-out;
+  margin-bottom: 30px; /* 👈 adiciona espaço abaixo do banner */
 }
+
+.banner h2, .banner p {
+  transition: opacity 0.5s ease-in-out;
+}
+
 
 /* Produtos */
 .destaques, .lista-produtos {
