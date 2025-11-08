@@ -22,57 +22,6 @@
     </nav>
   </header>
 
-
-  <div class="search">
-        <input id="searchInput" placeholder="Procure por produto (ex: fone, smartwatch)" />
-  </div>
-
-  <div style="display:flex;align-items:center;gap:12px">
-        <select id="sortSelect" aria-label="Ordenar">
-          <option value="default">Ordenar</option>
-          <option value="price-asc">Preço: menor</option>
-          <option value="price-desc">Preço: maior</option>
-          <option value="name">Nome</option>
-        </select>
-
-        <div class="cart-toggle">
-          <button id="openCartBtn" class="btn-outline">Carrinho</button>
-          <div id="cartCount" class="cart-count" style="display:none">0</div>
-        </div>
-      </div>
-
-  <main>
-      <section>
-        <h2 style="margin-bottom:12px">Produtos</h2>
-        <div id="products" class="products"></div>
-      </section>
-  </main>
-
-  <div id="cartPanel" style="display:none" class="cart-panel" aria-hidden="true">
-      <h3>Carrinho</h3>
-      <div id="cartItems"></div>
-      <div id="cartSummary" style="margin-top:10px;font-weight:700">Total: R$ 0,00</div>
-
-      <div class="checkout">
-        <div style="font-weight:600;margin-bottom:8px">Finalizar Compra</div>
-        <div class="form-row">
-          <input id="nameInput" placeholder="Nome" />
-        </div>
-        <div class="form-row">
-          <input id="emailInput" placeholder="E-mail" />
-        </div>
-        <div class="form-row">
-          <input id="addressInput" placeholder="Endereço" />
-        </div>
-        <div style="display:flex;gap:8px">
-          <button id="checkoutBtn" class="btn-primary" style="flex:1">Pagar (simulado)</button>
-          <button id="clearCartBtn" class="btn-outline">Limpar</button>
-        </div>
-      </div>
-    </div>    
-
-
-
   <main>
     <section class="lista-produtos">
       <article>
